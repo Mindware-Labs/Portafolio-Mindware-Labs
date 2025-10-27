@@ -1,11 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Portfolio Details - Style Bootstrap Template</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <title>Detalles del proyecto - Cafetería Universitaria</title>
+    <meta
+      name="description"
+      content="Sistema de gestión para la Cafetería Universitaria: campus, cafeterías, usuarios, artículos, empleados y ventas."
+    />
+    <meta
+      name="keywords"
+      content="cafetería, gestión, Node, Express, React, PostgreSQL, Sequelize"
+    />
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
@@ -15,7 +21,7 @@
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
 
@@ -39,12 +45,12 @@
     <link href="assets/css/main.css" rel="stylesheet" />
 
     <!-- =======================================================
-  * Template Name: Style
-  * Template URL: https://bootstrapmade.com/style-bootstrap-portfolio-template/
-  * Updated: Jul 02 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+      * Template Name: Style
+      * Template URL: https://bootstrapmade.com/style-bootstrap-portfolio-template/
+      * Updated: Jul 02 2025 with Bootstrap v5.3.7
+      * Author: BootstrapMade.com
+      * License: https://bootstrapmade.com/license/
+    ======================================================== -->
   </head>
 
   <body class="portfolio-details-page">
@@ -90,29 +96,28 @@
           </div>
 
           <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">Sobre Nosotros</a></li>
-            <li><a href="#skills">Trayecto</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#services">Servicios</a></li>
-            <li><a href="#contact">Contacto</a></li>
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#about">Sobre Nosotros</a></li>
+            <li><a href="index.html#skills">Trayecto</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#services">Servicios</a></li>
+            <li><a href="index.html#contact">Contacto</a></li>
           </ul>
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
       </div>
     </header>
-
     <main class="main">
       <!-- Page Title -->
       <div class="page-title light-background">
         <div
           class="container d-lg-flex justify-content-between align-items-center"
         >
-          <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
+          <h1 class="mb-2 mb-lg-0">Detalles del portafolio</h1>
           <nav class="breadcrumbs">
             <ol>
-              <li><a href="index.html">Home</a></li>
-              <li class="current">Portfolio Details</li>
+              <li><a href="index.html">Inicio</a></li>
+              <li class="current">Cafetería Universitaria</li>
             </ol>
           </nav>
         </div>
@@ -134,18 +139,11 @@
                       {
                         "loop": true,
                         "speed": 1000,
-                        "autoplay": {
-                          "delay": 6000
-                        },
+                        "autoplay": { "delay": 6000 },
                         "effect": "creative",
                         "creativeEffect": {
-                          "prev": {
-                            "shadow": true,
-                            "translate": [0, 0, -400]
-                          },
-                          "next": {
-                            "translate": ["100%", 0, 0]
-                          }
+                          "prev": { "shadow": true, "translate": [0, 0, -400] },
+                          "next": { "translate": ["100%", 0, 0] }
                         },
                         "slidesPerView": 1,
                         "navigation": {
@@ -157,22 +155,22 @@
                     <div class="swiper-wrapper">
                       <div class="swiper-slide">
                         <img
-                          src="assets/img/portfolio/portfolio-5.webp"
-                          alt="Portfolio Image"
+                          src="assets/img/SistemaCafeteria/Cafeteria-Dashboard.png"
+                          alt="Panel principal del sistema"
                           class="img-fluid"
                         />
                       </div>
                       <div class="swiper-slide">
                         <img
-                          src="assets/img/portfolio/portfolio-7.webp"
-                          alt="Portfolio Image"
+                          src="assets/img/SistemaCafeteria/Cafeteria-2.png"
+                          alt="Gestión de artículos"
                           class="img-fluid"
                         />
                       </div>
                       <div class="swiper-slide">
                         <img
-                          src="assets/img/portfolio/portfolio-8.webp"
-                          alt="Portfolio Image"
+                          src="assets/img/SistemaCafeteria/Cafeteria-3.png"
+                          alt="Ventas y reportes"
                           class="img-fluid"
                         />
                       </div>
@@ -190,29 +188,29 @@
                   <div class="row g-2 mt-3">
                     <div class="col-3">
                       <img
-                        src="assets/img/portfolio/portfolio-4.webp"
-                        alt="Gallery Image"
+                        src="assets/img/SistemaCafeteria/Cafeteria-Dashboard.png"
+                        alt="Dashboard"
                         class="img-fluid glightbox"
                       />
                     </div>
                     <div class="col-3">
                       <img
-                        src="assets/img/portfolio/portfolio-6.webp"
-                        alt="Gallery Image"
+                        src="assets/img/SistemaCafeteria/Cafeteria-2.png"
+                        alt="Artículos"
                         class="img-fluid glightbox"
                       />
                     </div>
                     <div class="col-3">
                       <img
-                        src="assets/img/portfolio/portfolio-11.webp"
-                        alt="Gallery Image"
+                        src="assets/img/SistemaCafeteria/Cafeteria-3.png"
+                        alt="Ventas"
                         class="img-fluid glightbox"
                       />
                     </div>
                     <div class="col-3">
                       <img
-                        src="assets/img/portfolio/portfolio-12.webp"
-                        alt="Gallery Image"
+                        src="assets/img/SistemaCafeteria/cafeteria-4.png"
+                        alt="Reportes"
                         class="img-fluid glightbox"
                       />
                     </div>
@@ -224,11 +222,14 @@
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <span>Angular</span>
-                  <span>Express.js</span>
+                  <span>React + Vite</span>
+                  <span>TypeScript</span>
+                  <span>Node.js</span>
+                  <span>Express</span>
+                  <span>Sequelize</span>
                   <span>PostgreSQL</span>
-                  <span>GraphQL</span>
-                  <span>Firebase</span>
+                  <span>JWT</span>
+                  <span>Bootstrap/Tailwind</span>
                 </div>
               </div>
             </div>
@@ -237,41 +238,71 @@
               <div class="portfolio-details-content">
                 <div class="project-meta">
                   <div class="badge-wrapper">
-                    <span class="project-badge">UX/UI Design</span>
+                    <span class="project-badge">Aplicación Full Stack</span>
                   </div>
                   <div class="date-client">
                     <div class="meta-item">
                       <i class="bi bi-calendar-check"></i>
-                      <span>September 2024</span>
+                      <span>Octubre 2025</span>
                     </div>
                     <div class="meta-item">
                       <i class="bi bi-buildings"></i>
-                      <span>DigitalCraft Solutions</span>
+                      <span>Cafetería Universitaria</span>
                     </div>
                   </div>
                 </div>
 
-                <h2 class="project-title">
-                  Innovative Financial Dashboard App
-                </h2>
+                <h2 class="project-title">Sistema de Gestión de Cafetería</h2>
 
                 <div class="project-website">
                   <i class="bi bi-link-45deg"></i>
-                  <a href="#" target="_blank">projectwebsite.example.com</a>
+                  <style>
+                    .links a {
+                      display: block;
+                      background-color: #cce5ff;
+                      color: #004085;
+                      text-decoration: none;
+                      padding: 8px 12px;
+                      border-radius: 8px;
+                      margin-bottom: 6px;
+                      font-weight: 600;
+                      transition: background-color 0.3s, color 0.3s;
+                    }
+                    .links a:hover {
+                      background-color: #b3d7ff;
+                      color: #002752;
+                    }
+                  </style>
+                  <div class="links">
+                    <a
+                      href="https://cafeteria-frontend-six.vercel.app/"
+                      target="_blank"
+                      >🌐 URL del proyecto</a
+                    >
+                  </div>
                 </div>
+
+                <style>
+                  .project-website .links a {
+                    display: block;
+                    margin-top: 5px;
+                  }
+                </style>
 
                 <div class="project-overview">
                   <p class="lead">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Maecenas varius tortor nibh, sit amet tempor nibh finibus
-                    et. Aenean eu enim justo. Vestibulum aliquam hendrerit
-                    molestie.
+                    Plataforma web para gestionar la operación de la
+                    <strong>Cafetería Universitaria</strong>: administración de
+                    campus y cafeterías, catálogo de artículos, proveedores,
+                    marcas, empleados y usuarios; además de ventas y reportes
+                    por criterios.
                   </p>
 
                   <div
                     class="accordion project-accordion"
                     id="portfolio-details-projectAccordion"
                   >
+                    <!-- Descripción del Proyecto -->
                     <div class="accordion-item" data-aos="fade-up">
                       <h2 class="accordion-header">
                         <button
@@ -280,10 +311,9 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#portfolio-details-collapse-1"
                           aria-expanded="true"
-                          aria-controls="collapseOne"
                         >
-                          <i class="bi bi-clipboard-data me-2"></i> Project
-                          Overview
+                          <i class="bi bi-clipboard-data me-2"></i> Descripción
+                          del Proyecto
                         </button>
                       </h2>
                       <div
@@ -293,17 +323,21 @@
                       >
                         <div class="accordion-body">
                           <p>
-                            Cras ultricies ligula sed magna dictum porta. Nulla
-                            quis lorem ut libero malesuada feugiat. Curabitur
-                            non nulla sit amet nisl tempus convallis quis ac
-                            lectus. Pellentesque in ipsum id orci porta dapibus.
-                            Vestibulum ac diam sit amet quam vehicula elementum
-                            sed sit amet dui.
+                            El sistema centraliza procesos de cafetería
+                            universitaria: definición de <em>Campus</em> y
+                            <em>Cafeterías</em>, manejo de <em>Usuarios</em> por
+                            tipo (profesor, estudiante, empleado),
+                            <em>Artículos</em> con marca, costo y existencia, y
+                            flujo de <em>Facturación</em> (ventas por
+                            empleado/usuario con comentarios y estado). Incluye
+                            consultas y reportes por rango de fecha, campus,
+                            proveedor, etc.
                           </p>
                         </div>
                       </div>
                     </div>
 
+                    <!-- El Reto -->
                     <div
                       class="accordion-item"
                       data-aos="fade-up"
@@ -316,10 +350,8 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#portfolio-details-collapse-2"
                           aria-expanded="false"
-                          aria-controls="collapseTwo"
                         >
-                          <i class="bi bi-exclamation-diamond me-2"></i> The
-                          Challenge
+                          <i class="bi bi-exclamation-diamond me-2"></i> El Reto
                         </button>
                       </h2>
                       <div
@@ -329,17 +361,18 @@
                       >
                         <div class="accordion-body">
                           <p>
-                            Mauris blandit aliquet elit, eget tincidunt nibh
-                            pulvinar a. Vivamus suscipit tortor eget felis
-                            porttitor volutpat. Curabitur aliquet quam id dui
-                            posuere blandit. Praesent sapien massa, convallis a
-                            pellentesque nec, egestas non nisi. Sed porttitor
-                            lectus nibh.
+                            Diseñar una API segura y tipada con TypeScript, que
+                            soporte relaciones complejas (Sequelize/PostgreSQL),
+                            reglas de negocio (existencias y comisiones), y un
+                            frontend rápido con búsquedas, filtros y validación
+                            robusta, manteniendo DX simple para despliegues en
+                            Vercel/Render.
                           </p>
                         </div>
                       </div>
                     </div>
 
+                    <!-- La Solución -->
                     <div
                       class="accordion-item"
                       data-aos="fade-up"
@@ -352,9 +385,8 @@
                           data-bs-toggle="collapse"
                           data-bs-target="#portfolio-details-collapse-3"
                           aria-expanded="false"
-                          aria-controls="collapseThree"
                         >
-                          <i class="bi bi-award me-2"></i> The Solution
+                          <i class="bi bi-award me-2"></i> La Solución
                         </button>
                       </h2>
                       <div
@@ -364,12 +396,15 @@
                       >
                         <div class="accordion-body">
                           <p>
-                            Donec sollicitudin molestie malesuada. Curabitur
-                            arcu erat, accumsan id imperdiet et, porttitor at
-                            sem. Vestibulum ante ipsum primis in faucibus orci
-                            luctus et ultrices posuere cubilia Curae; Donec
-                            velit neque, auctor sit amet aliquam vel,
-                            ullamcorper sit amet ligula.
+                            Backend en <strong>Node.js/Express</strong> +
+                            <strong>Sequelize</strong> sobre
+                            <strong>PostgreSQL</strong>, autenticación con
+                            <strong>JWT</strong>, CORS configurado por entorno.
+                            Frontend en <strong>React + Vite</strong>, UI con
+                            <strong>Bootstrap/Tailwind</strong>, rutas con
+                            <strong>React Router</strong>, validaciones con
+                            <strong>Valibot</strong>, tablas y formularios
+                            accesibles, y despliegue continuo (Vercel/Render).
                           </p>
                         </div>
                       </div>
@@ -382,37 +417,47 @@
                   data-aos="fade-up"
                   data-aos-delay="300"
                 >
-                  <h3><i class="bi bi-stars"></i> Key Features</h3>
+                  <h3>
+                    <i class="bi bi-stars"></i> Funcionalidades Destacadas
+                  </h3>
                   <div class="row g-3">
                     <div class="col-md-6">
                       <ul class="feature-list">
                         <li>
-                          <i class="bi bi-check2-circle"></i> Real-time Data
-                          Visualization
+                          <i class="bi bi-check2-circle"></i> Gestión de Campus
+                          y Cafeterías
                         </li>
                         <li>
-                          <i class="bi bi-check2-circle"></i> User Role
-                          Management
+                          <i class="bi bi-check2-circle"></i> Tipos de Usuarios
+                          y límites de crédito
                         </li>
                         <li>
-                          <i class="bi bi-check2-circle"></i> Secure
-                          Authentication
+                          <i class="bi bi-check2-circle"></i> Proveedores y
+                          Marcas
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i> Artículos: costo,
+                          existencia y estado
                         </li>
                       </ul>
                     </div>
                     <div class="col-md-6">
                       <ul class="feature-list">
                         <li>
-                          <i class="bi bi-check2-circle"></i> Customizable
-                          Dashboards
+                          <i class="bi bi-check2-circle"></i> Empleados: tanda,
+                          comisión y estado
                         </li>
                         <li>
-                          <i class="bi bi-check2-circle"></i> Data Export
-                          Options
+                          <i class="bi bi-check2-circle"></i> Ventas/Facturación
+                          por usuario/fecha
                         </li>
                         <li>
-                          <i class="bi bi-check2-circle"></i> Multi-device
-                          Support
+                          <i class="bi bi-check2-circle"></i> Consultas por
+                          criterios (fecha, campus, proveedor)
+                        </li>
+                        <li>
+                          <i class="bi bi-check2-circle"></i> Reportes entre
+                          fechas y por campus/proveedor
                         </li>
                       </ul>
                     </div>
@@ -424,9 +469,14 @@
                   data-aos="fade-up"
                   data-aos-delay="400"
                 >
-                  <a href="#" class="btn-view-project">View Live Project</a>
-                  <a href="#" class="btn-next-project"
-                    >Next Project <i class="bi bi-arrow-right"></i
+                  <a
+                    href="https://cafeteria-frontend-six.vercel.app/"
+                    target="_blank"
+                    class="btn-view-project"
+                    >Ver Proyecto</a
+                  >
+                  <a href="proyect4-details.html" class="btn-next-project"
+                    >Siguiente Proyecto <i class="bi bi-arrow-right"></i
                   ></a>
                 </div>
               </div>
@@ -443,7 +493,7 @@
           <p>
             © <span>Copyright</span>
             <strong class="px-1 sitename">Style</strong>
-            <span>All Rights Reserved</span>
+            <span>Todos los derechos reservados</span>
           </p>
         </div>
         <div class="social-links d-flex justify-content-center">
@@ -453,11 +503,7 @@
           <a href=""><i class="bi bi-linkedin"></i></a>
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Diseñado por <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
     </footer>
@@ -467,8 +513,9 @@
       href="#"
       id="scroll-top"
       class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
+    >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
